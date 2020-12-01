@@ -1,0 +1,120 @@
+body p{
+	font-size:20px;
+}
+body{
+    background-image: url("fond2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.menu{
+	background-color: rgba(0,0,0,0.3);
+	background-size: cover;
+	margin: auto;
+	width: 1200px;
+}
+#i{
+	    font-size: 30px;
+			color: black;
+			text-align: center;
+}
+.info{
+	        margin-left: 700px;
+	      	margin-top: -377px;
+					border-radius: 50px;
+					background-color: white;
+					width: 400px;
+					height: 350px
+}
+#inf{
+	text-align: center;
+	margin-top:40px;
+}
+.atelier{
+	margin-left: 100px;
+	margin-top: 200px;
+	border-radius: 50px;
+	background-color: white;
+	width: 400px;
+	height: 350px;
+}
+#a{
+			color: black;
+			font-size: 30px;
+			text-align: center;
+			margin-top: 10px;
+}
+#at{
+	text-align: center;
+	margin-top:70px;
+}
+nav ul{
+list-style-type:none;
+text-align: justify;
+/*pour modifier la barre de naigation, il faut le faire dans le ul*/
+}
+nav li{
+display:inline-block;
+margin:0px;
+padding:0px;
+color: black;
+}
+nav{
+   margin-left:130px;
+}
+nav a{
+    margin-left:50px;
+color: black;
+font-weight: 70px;
+font-size: 20px;
+background-color:transparent;padding: 5px;
+padding: 11px;
+border-radius: 30px;
+line-height: 100px;/*permet d'espacer le menu d'avec le reste de la page*/
+text-decoration:none; /*permet de supprimer le surlignement des liens*/
+}
+nav a:hover{
+  color:#0E6366;
+}
+a{
+    text-decoration:none;
+    color:#EDA437;
+}
+a:hover{
+    color:#0E6366;
+}
+#logo{
+	border-radius:200px;
+}
+#img li {
+	width: 150px;
+	height: 150px;
+	display:inline-block;
+}
+.galerie img{
+	width: 180px;
+	height: 180px;
+	padding: 15px;
+	transition: 1s;
+	border-radius: 100px;
+}
+.galerie img:hover{
+	transform: scale(1.1); /*permet de mettre l'image en avant*/
+}
+.galerie{
+	margin: 0px 50px;
+	margin-top: 50px
+}
+#logo{
+	margin-left: 300px;
+	margin-top: 60px;
+}
+.emma{
+	margin-left: 200px;
+	margin-right: 150px;
+	margin-top: 100px;
+}
+.emma img{
+	width: 800px;
+	height:260px;
+}
